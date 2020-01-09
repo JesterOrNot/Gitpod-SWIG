@@ -6,4 +6,6 @@ RUN sudo apt-get update \
     && sudo apt-get install -yq \
         python-dev \
         libpython-dev \
-        swig
+        swig \
+        python-swiglpk \
+        python3-swiglpk
